@@ -1,0 +1,10 @@
+exports.createError="Unable to process";
+exports.adminAlreadyExist="User name already exits";
+exports.adminRegSuccess="Admin registration successfully";
+exports.invalidPass="Invalid password";
+exports.invalidUserName="Invalid username";
+exports.invalidEmail="Invalid email";
+exports.updateSuccess="Updated successfully";
+exports.noRecord="Record not found";
+exports.emailExist="Email already exits";
+exports.userRegSuccess="User registration successfully";
