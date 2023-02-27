@@ -9,6 +9,7 @@ module.exports = {
     DB: "modbus",
     dialect: "mysql",
     logging:false,
+    timeout:60000,
     pool: {
         max: 5,
         min: 0,
