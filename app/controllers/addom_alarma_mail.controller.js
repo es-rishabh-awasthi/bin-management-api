@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 var db = require("../models");
-var logs = db.tbl_log;
+var logs = db.tbl_addom_alarma_mail;
 logs.removeAttribute('id');
 router.get('/getAll', async (req, res, next) => {
   try {
@@ -11,7 +11,7 @@ router.get('/getAll', async (req, res, next) => {
         // alarma_activo: 1
       },
       order: [
-        ['id', 'DESC']
+        ['alarma_mail_id', 'ASC']
       ],
     })
 console.log(alarmData);

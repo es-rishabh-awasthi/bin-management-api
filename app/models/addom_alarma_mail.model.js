@@ -9,7 +9,7 @@ module.exports = (sequelize, Sequelize) => {
         alarma_id: {
             type: Sequelize.STRING
         },
-        alarma_mail_norm: {
+        alarma_mail_nom: {
             type: Sequelize.STRING
         },
         alarma_mail_correo: {

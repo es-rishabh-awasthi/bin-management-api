@@ -8,6 +8,7 @@ const logCtl = require("../controllers/log.controller");
 const citizenCtl = require("../controllers/citizen.controller");
 const userCtl = require("../controllers/user.controller");
 const addomAlarmaCtl = require("../controllers/addom_alarma.controller");
+const addomAlarmaMailCtl = require("../controllers/addom_alarma_mail.controller");
 const bigtainerStatusCtl = require("../controllers/bigtainerStatus.controller");
 const bigtainerElementCtl = require("../controllers/bigtainer.controller");
 const sidetainerElementCtl = require("../controllers/sidetainer.controller");
@@ -27,6 +28,7 @@ module.exports = function (app) {
   app.use("/bigtainer", bigtainerElementCtl);
   app.use("/sidetainer", sidetainerElementCtl);
   app.use("/alarm", addomAlarmaCtl);
+  app.use("/alarmMail", addomAlarmaMailCtl);
   app.use("/log", logCtl);
   app.use("/event", eventCtl);
   app.use("/citizen", citizenCtl);

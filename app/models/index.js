@@ -29,6 +29,11 @@ db.tbl_addom_alarma = require("../models/sidetainer.model.js")(
   Sequelize
 );
 
+db.tbl_addom_alarma_mail = require("../models/addom_alarma_mail.model.js")(
+  sequelize,
+  Sequelize
+);
+
 db.tbl_event = require("../models/event.model.js")(
   sequelize,
   Sequelize
