@@ -10,7 +10,7 @@ router.get('/getAll', async (req, res, next) => {
       where: {
       },
     })
-console.log(binData);
+// console.log(binData);
     if (binData.length > 0) {
       return res.send({
         status: 200,

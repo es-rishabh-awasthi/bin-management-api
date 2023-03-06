@@ -14,7 +14,7 @@ router.get('/getAll', async (req, res, next) => {
         ['alarma_mail_id', 'ASC']
       ],
     })
-console.log(alarmData);
+// console.log(alarmData);
     if (alarmData.length > 0) {
       return res.send({
         status: 200,

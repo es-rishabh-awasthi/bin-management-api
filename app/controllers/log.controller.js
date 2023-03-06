@@ -43,7 +43,7 @@ router.get('/getAll', async (req, res, next) => {
  
 */
 
-console.log("this");
+// console.log("this");
 const sequelize = require('sequelize');
 
 const query = `

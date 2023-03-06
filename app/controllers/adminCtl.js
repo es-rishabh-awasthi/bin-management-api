@@ -2918,7 +2918,7 @@ router.post("/getAdvancedAllInstitutes/:size/:page", async (req, res) => {
 
     //working for 3
     if (count === 3) {
-      console.log(req.body);
+      // console.log(req.body);
       const villages = await db.village.findAll({
         attributes: [
           "JJM_District",

@@ -11,7 +11,7 @@ router.get('/getAll', async (req, res, next) => {
         // alarma_activo: 1
       },
         })
-console.log(alarmData);
+// console.log(alarmData);
     if (alarmData.length > 0) {
       return res.send({
         status: 200,
